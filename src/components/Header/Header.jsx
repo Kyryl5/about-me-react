@@ -16,7 +16,7 @@ function Header() {
           <Box sx={{ flexGrow: 0, p: 1 }}>
             <Avatar
               alt="user-photo"
-              src="/public/img/photo.jpeg"
+              src="../img/photo.jpeg"
               sx={{ width: 100, height: 100 }}
             />
           </Box>
