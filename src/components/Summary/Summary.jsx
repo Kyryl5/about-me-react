@@ -1,20 +1,21 @@
-import user from "../../user.json";
-import Paper from "@mui/material/Paper";
+import Paper from '@mui/material/Paper'
 
-function Summary() {
+function Summary({ aboutUser }) {
   return (
     <Paper sx={{ p: 2 }} elevation={8}>
       <h2>Short Summary</h2>
-      <h3>Name: {user.name}</h3>
+      <h3>Name: {aboutUser.name}</h3>
       <div>
         <h3>Education</h3>
         <ul>
-          <li>Specialist Degree: {user.education["Degree Specialist"]} </li>
-          <li>Bachelor Degree: {user.education["Degree Bachelor"]} </li>
+          <li>
+            Specialist Degree: {aboutUser.education['Degree Specialist']}{' '}
+          </li>
+          <li>Bachelor Degree: {aboutUser.education['Degree Bachelor']} </li>
         </ul>
       </div>
     </Paper>
-  );
+  )
 }
 
-export default Summary;
+export default Summary
