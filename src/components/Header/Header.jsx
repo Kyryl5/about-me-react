@@ -1,18 +1,17 @@
-import React from 'react'
-import AppBar from '@mui/material/AppBar'
-import Box from '@mui/material/Box'
-import Toolbar from '@mui/material/Toolbar'
-import Typography from '@mui/material/Typography'
-import Container from '@mui/material/Container'
-import Avatar from '@mui/material/Avatar'
-import imgUrl from '../../../src/photo.jpeg'
+import React from "react";
+import AppBar from "@mui/material/AppBar";
+import Box from "@mui/material/Box";
+import Toolbar from "@mui/material/Toolbar";
+import Container from "@mui/material/Container";
+import Avatar from "@mui/material/Avatar";
+import imgUrl from "../../../src/photo.jpeg";
 
 function Header() {
   return (
     <AppBar position="static" elevation={8}>
       <Container maxWidth="xl">
         <Toolbar disableGutters>
-          <Typography variant="h5">About Me</Typography>
+          <h1>About Me</h1>
           <Box sx={{ flexGrow: 1 }}></Box>
           <Box sx={{ flexGrow: 0, p: 1 }}>
             <Avatar
@@ -24,6 +23,6 @@ function Header() {
         </Toolbar>
       </Container>
     </AppBar>
-  )
+  );
 }
-export default Header
+export default Header;

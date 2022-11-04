@@ -1,5 +1,5 @@
-import user from '../../user.json'
-import Paper from '@mui/material/Paper'
+import user from "../../user.json";
+import Paper from "@mui/material/Paper";
 
 function Hobbies() {
   return (
@@ -11,7 +11,7 @@ function Hobbies() {
         ))}
       </ul>
     </Paper>
-  )
+  );
 }
 
-export default Hobbies
+export default Hobbies;
